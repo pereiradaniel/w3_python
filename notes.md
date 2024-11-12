@@ -1,4 +1,4 @@
-[TUTORIAL LINK](https://www.w3schools.com/python/default.asp)
+[W3 Schools Python Tutorial](https://www.w3schools.com/python/default.asp)
 
 # [Python Getting Started](https://www.w3schools.com/python/python_getstarted.asp)
 
@@ -106,3 +106,42 @@ y = "Hello, World!"
 import sys
 print(sys.version)
 ```
+
+---
+
+# [Python Comments](https://www.w3schools.com/python/python_comments.asp)
+
+Comments can be used to:
+1. Explain Python code.
+2. Make the code more readable.
+3. Prevent execution when testing code.
+
+## Creating a Comment
+
+Python will ignore everything after #, so a comment can be left at the end of a line:
+
+```
+print("Hello World!") # Outputs text to the screen
+```
+
+## Multiline Comments
+Python does not have a syntax for multiline comments, just add # to the beginning of each line you want to be a comment.
+
+Python will ignore string literals that are not assigned to a variable.
+You can add a multiline string (triple quotes) and place a comment inside it:
+
+```
+"""
+This is
+a multiline
+comment
+"""
+
+print("Hello, World!")
+```
+
+As long as the string is not assigned to a variable, Python will read the code, but then ignore it.
+
+---
+
+# [Python Variables](https://www.w3schools.com/python/python_variables.asp)
