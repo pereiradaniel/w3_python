@@ -3,96 +3,105 @@
 # [Python Getting Started](https://www.w3schools.com/python/python_getstarted.asp)
 
 ## What is Python?
-    Python is a popular programming language. It was created by Guido van Rossum, and released in 1991.
 
-    It is used for:
-        - web development (server-side)
-        - software development
-        - mathematics
-        - system scripting
+Python is a popular programming language. It was created by Guido van Rossum, and released in 1991.
+
+It is used for:
+    - web development (server-side)
+    - software development
+    - mathematics
+    - system scripting
 
 ## What can Python do?
-    Python can be used on a server to create web applications.
-    Python can be used alongside software to create workflows.
-    Python can connect to database systems. It can also read and modify files.
-    Python can be used to handle big data and perform complex mathematics.
-    Python can be used for rapid prototyping, or for production-ready software development.
+
+Python can be used on a server to create web applications.
+Python can be used alongside software to create workflows.
+Python can connect to database systems. It can also read and modify files.
+Python can be used to handle big data and perform complex mathematics.
+Python can be used for rapid prototyping, or for production-ready software development.
 
 ## Why Python?
-    Python works on different platforms (Windows, Mac, Linux, Raspberry Pi, etc).
-    Python has a simple syntax similar to the English language.
-    Python has syntax that allows developers to write programs with fewer lines than some other programming languages.
-    Python runs on an interpreter system, meaning that code can be executed as soon as it is written. This means that prototyping can be very quick.
-    Python can be treated in a procedural way, an object-oriented way or a functional way.
+
+Python works on different platforms (Windows, Mac, Linux, Raspberry Pi, etc).
+Python has a simple syntax similar to the English language.
+Python has syntax that allows developers to write programs with fewer lines than some other programming languages.
+Python runs on an interpreter system, meaning that code can be executed as soon as it is written. This means that prototyping can be very quick.
+Python can be treated in a procedural way, an object-oriented way or a functional way.
 
 ## Good to know
-    The most recent major version of Python is Python 3, which we shall be using in this tutorial. However, Python 2, although not being updated with anything other than security updates, is still quite popular.
 
-    In this tutorial Python will be written in a text editor. It is possible to write Python in an Integrated Development Environment, such as Thonny, Pycharm, Netbeans or Eclipse which are particularly useful when managing larger collections of Python files.
+The most recent major version of Python is Python 3, which we shall be using in this tutorial. However, Python 2, although not being updated with anything other than security updates, is still quite popular.
+
+In this tutorial Python will be written in a text editor. It is possible to write Python in an Integrated Development Environment, such as Thonny, Pycharm, Netbeans or Eclipse which are particularly useful when managing larger collections of Python files.
 
 ## Python Syntax compared to other programming languages
-    Python was designed for readability, and has some similarities to the English language with influence from mathematics.
-    Python uses new lines to complete a command, as opposed to other programming languages which often use semicolons or parentheses.
-    Python relies on indentation, using whitespace, to define scope; such as the scope of loops, functions and classes. Other programming languages often use curly-brackets for this purpose.
+
+Python was designed for readability, and has some similarities to the English language with influence from mathematics.
+Python uses new lines to complete a command, as opposed to other programming languages which often use semicolons or parentheses.
+Python relies on indentation, using whitespace, to define scope; such as the scope of loops, functions and classes. Other programming languages often use curly-brackets for this purpose.
 
 ## Hello World
 
-    ```
-    print("Hello, World!")
-    ```
+```
+print("Hello, World!")
+```
 
 ## Command Line Basics
-    Open the Python interpreter from the command prompt: Python
-    To exit the interpreter: exit()
+
+Open the Python interpreter from the command prompt: Python
+To exit the interpreter: exit()
 
 ## Python file extension
-    The correct file extension for a Python file is .py
+
+The correct file extension for a Python file is .py
 
 ---
 
 # [Python Syntax](https://www.w3schools.com/python/python_syntax.asp)
 
 ## Execute Python Syntax
-    Python can be executed by writing directly in the Python interpreter.
-    Python can be executed by creating a python file and running it in the Command Line.
 
-        ```
-        python myfile.py
-        ```
+Python can be executed by writing directly in the Python interpreter.
+Python can be executed by creating a python file and running it in the Command Line.
+
+```
+python myfile.py
+```
 
 ## Python Indendation
-    - Refers to spaces at the beginning of a code line.
-    - In other programming languages, indentation is for readability, in Python it is **very important**!
-    - Python uses indentation to indicate a block of code.
+- Refers to spaces at the beginning of a code line.
+- In other programming languages, indentation is for readability, in Python it is **very important**!
+- Python uses indentation to indicate a block of code.
 
-        ```
-        if 5 > 2:
-        print("Five is greater than two!")
-        ```
-    
-    _Python will give you an error if you skip the indentation!_
+```
+if 5 > 2:
+print("Five is greater than two!")
+```
 
-    - The number of spaces is up to the programmer.
-        1. Commonly four.
-        2. Must be at least one.
-        3. You have to use the same number of spaces in the same block fo code, otherwise Python gives an error.
+_Python will give you an error if you skip the indentation!_
+
+- The number of spaces is up to the programmer.
+    1. Commonly four.
+    2. Must be at least one.
+    3. You have to use the same number of spaces in the same block fo code, otherwise Python gives an error.
     
 ## Python Variables
-    - Variables are created when you assign a value to it:
+- Variables are created when you assign a value to it:
 
-        ```
-        x = 5
-        y = "Hello, World!"
-        ```
+```
+x = 5
+y = "Hello, World!"
+```
     
-    - Python has *no command* for declaring a variable!
+- Python has *no command* for declaring a variable!
 
 ## Comments
-    - Python allows comments for in-code documentation.
-    - Python will render the rest of any line starting with #.
 
-        ```
-        # To check the Python version of the editor, you can find it by importing the sys module:
-        import sys
-        print(sys.version)
-        ```
+- Python allows comments for in-code documentation.
+- Python will render the rest of any line starting with #.
+
+```
+# To check the Python version of the editor, you can find it by importing the sys module:
+import sys
+print(sys.version)
+```
