@@ -45,5 +45,3 @@ NOTES:
 
 # Python file extension
     The correct file extension for a Python file is .py
-
-< END OF STUDY: 09/SEP/2024 15:33hrs >
