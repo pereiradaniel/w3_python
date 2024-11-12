@@ -1,5 +1,3 @@
-[W3 Schools Python Tutorial](https://www.w3schools.com/python/default.asp)
-
 # [Python Getting Started](https://www.w3schools.com/python/python_getstarted.asp)
 
 ## What is Python?
