@@ -6,10 +6,10 @@
     Python is a popular programming language. It was created by Guido van Rossum, and released in 1991.
 
     It is used for:
-        - web development (server-side),
-        - software development,
-        - mathematics,
-        - system scripting.
+        - web development (server-side)
+        - software development
+        - mathematics
+        - system scripting
 
 ## What can Python do?
     Python can be used on a server to create web applications.
@@ -37,7 +37,9 @@
 
 ## Hello World
 
-    ```print("Hello, World!")```
+    ```
+    print("Hello, World!")
+    ```
 
 ## Command Line Basics
     Open the Python interpreter from the command prompt: Python
@@ -48,20 +50,25 @@
 
 ---
 
-# Python Syntax https://www.w3schools.com/python/python_syntax.asp
+# [Python Syntax](https://www.w3schools.com/python/python_syntax.asp)
 
 ## Execute Python Syntax
     Python can be executed by writing directly in the Python interpreter.
     Python can be executed by creating a python file and running it in the Command Line.
-        ```python myfile.py```
+
+        ```
+        python myfile.py
+        ```
 
 ## Python Indendation
     - Refers to spaces at the beginning of a code line.
     - In other programming languages, indentation is for readability, in Python it is **very important**!
     - Python uses indentation to indicate a block of code.
 
-        ```if 5 > 2:```
-        ```  print("Five is greater than two!")```
+        ```
+        if 5 > 2:
+        print("Five is greater than two!")
+        ```
     
     _Python will give you an error if you skip the indentation!_
 
@@ -73,8 +80,10 @@
 ## Python Variables
     - Variables are created when you assign a value to it:
 
-        ```x = 5```
-        ```y = "Hello, World!"```
+        ```
+        x = 5
+        y = "Hello, World!"
+        ```
     
     - Python has *no command* for declaring a variable!
 
@@ -82,6 +91,8 @@
     - Python allows comments for in-code documentation.
     - Python will render the rest of any line starting with #.
 
-        ```# To check the Python version of the editor, you can find it by importing the sys module:```
-        ```import sys```
-        ```print(sys.version)```
+        ```
+        # To check the Python version of the editor, you can find it by importing the sys module:
+        import sys
+        print(sys.version)
+        ```
