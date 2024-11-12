@@ -1,7 +1,6 @@
-[TUTORIAL LINK]
-    https://www.w3schools.com/python/default.asp
+[TUTORIAL LINK](https://www.w3schools.com/python/default.asp)
 
-# Python Getting Started https://www.w3schools.com/python/python_getstarted.asp
+# [Python Getting Started](https://www.w3schools.com/python/python_getstarted.asp)
 
 ## What is Python?
     Python is a popular programming language. It was created by Guido van Rossum, and released in 1991.
