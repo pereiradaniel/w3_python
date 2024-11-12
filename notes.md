@@ -7,10 +7,10 @@
 Python is a popular programming language. It was created by Guido van Rossum, and released in 1991.
 
 It is used for:
-    - web development (server-side)
-    - software development
-    - mathematics
-    - system scripting
+- web development (server-side)
+- software development
+- mathematics
+- system scripting
 
 ## What can Python do?
 
@@ -69,6 +69,7 @@ python myfile.py
 ```
 
 ## Python Indendation
+
 - Refers to spaces at the beginning of a code line.
 - In other programming languages, indentation is for readability, in Python it is **very important**!
 - Python uses indentation to indicate a block of code.
@@ -80,20 +81,20 @@ print("Five is greater than two!")
 
 _Python will give you an error if you skip the indentation!_
 
-- The number of spaces is up to the programmer.
-    1. Commonly four.
-    2. Must be at least one.
-    3. You have to use the same number of spaces in the same block fo code, otherwise Python gives an error.
+The number of spaces is up to the programmer.
+1. Commonly four.
+2. Must be at least one.
+3. You have to use the same number of spaces in the same block fo code, otherwise Python gives an error.
     
 ## Python Variables
+
 - Variables are created when you assign a value to it:
+- Python has *no command* for declaring a variable!
 
 ```
 x = 5
 y = "Hello, World!"
 ```
-    
-- Python has *no command* for declaring a variable!
 
 ## Comments
 
