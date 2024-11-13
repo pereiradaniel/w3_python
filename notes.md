@@ -179,3 +179,14 @@ x = str(3)      # x will equal '3'
 y = int(3)      # y will equal 3
 z = float(3)    # z will be 3.0
 ```
+
+## Get the Type
+
+The *type()* function will return the data type of a variable.
+
+```
+x = 5
+y = "String"
+print(type(x))
+print(type(y))
+```
