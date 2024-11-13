@@ -169,3 +169,13 @@ print(x)
 x = "String"     # redefine x as "String"
 print(x)
 ```
+
+## Casting
+
+If you want to specify the data type of a variable, this can be done with casting:
+
+```
+x = str(3)      # x will equal '3'
+y = int(3)      # y will equal 3
+z = float(3)    # z will be 3.0
+```
