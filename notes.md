@@ -159,3 +159,13 @@ y = "John"
 print(x)
 print(y)
 ```
+
+3. Variables do not need to be declared with any particular type, and can even change type after they have been set.
+*Python is NOT a strictly typed language!*
+
+```
+x = 4            # set x to 4
+print(x)
+x = "String"     # redefine x as "String"
+print(x)
+```
