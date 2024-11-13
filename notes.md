@@ -190,3 +190,88 @@ y = "String"
 print(type(x))
 print(type(y))
 ```
+
+## Single or Double Quotes?
+
+String variables can be declared either by using single or double quotes:
+
+```
+x = "John"
+y = 'John'
+```
+
+## Case-Sensitive
+
+Variable names are case-sensitive:
+
+```
+a = 4
+A = "Sally" # Will not overwrite a
+print(a)
+print(A)
+```
+
+# [Python - Variable Names](https://www.w3schools.com/python/python_variables_names.asp)
+
+## Variable Names
+
+Variables can have short names or a more descriptive name.
+
+### Rules for Python Variables:
+
+1. Must start with a letter or the underscore character.
+2. Cannot start with a number.
+3. Can only contain alpha-numeric characters and underscores (A-z, 0-9, and _)
+4. Case-sensitive.
+5. Cannot be any of the Python keywords.
+
+## Multi Words Variable Names
+
+Variable names with more than one word are difficult to read. There are several techniques to make them more readable:
+
+### Camel Case
+
+myVariableName = "text"
+
+### Pascal Case
+
+MyVariableName = "text"
+
+### Snake Case
+
+my_variable_name = "text"
+
+# [Python Variables - Assign Multiple Values](https://www.w3schools.com/python/python_variables_multiple.asp)
+
+## Many Values to Multiple Variables
+
+Python allows you to assign values to multiple variables in one line:
+
+```
+x, y, z = "Orange, "Banana", "Cherry"
+print(x)
+print(y)
+print(z)
+```
+
+## One Value to Multiple Variables
+
+```
+x = y = z = "Orange"
+print(x)
+print(y)
+print(z)
+```
+
+## Unpack a Collection
+
+If you have a collection of values in a list, tuple, etc. Python allows you to extract the values into variables. This is called *unpacking*.
+
+```
+fruits = ["apple", "banana", "cherry"]
+x, y, z = fruits
+print(x)
+print(y)
+print(z)
+```
+
