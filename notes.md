@@ -143,3 +143,19 @@ As long as the string is not assigned to a variable, Python will read the code, 
 ---
 
 # [Python Variables](https://www.w3schools.com/python/python_variables.asp)
+
+## Variables
+
+Variables are containers for storing data values.
+
+## Creating Variables
+
+1. Python has no command for declaring a variable.
+2. A variable is created the moment you first assign a value to it.
+
+```
+x = 5
+y = "John"
+print(x)
+print(y)
+```
