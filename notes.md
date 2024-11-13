@@ -275,3 +275,90 @@ print(y)
 print(z)
 ```
 
+# [Python - Output Variables](https://www.w3schools.com/python/python_variables_output.asp)
+
+## Output Variables
+
+The Python *print()* function is often used to output variables. In the *print()* function, you output mutliple variables, separated by a comma:
+
+```
+x = "Python "
+y = "is "
+z = "awesome"
+print(x + y + z)
+```
+
+For numbers, the *+* character works as a mathematical operator:
+
+```
+x = 5
+y = 10
+print(x + y)
+```
+
+If you try to combine a string with a number in this way, Python will throw an error. The best way to output multiple variables in *print()* is to separate them with commas, which will support different data types:
+
+```
+x = 5
+y = "text"
+print(x, y)
+```
+
+# [Python - Global Variables](https://www.w3schools.com/python/python_variables_global.asp)
+
+## Global Variables
+
+Variables that are created outsiude of a function are known as *global variables*.
+Global variables can be used by everyone, both inside of functions and outside.
+
+```
+x = "awesome"
+
+def myfunc():
+    print("Python is "+ x)
+
+myfunc()
+```
+
+If you create a variable with the same name inside a function, this variable will be local, and can only be used inside the function. The global variable with the same name will remain as it was, global and with the original value.
+
+```
+x = "awesome"
+
+def myfunc():
+    x = "fantastic"
+    print("Python is " + x)
+
+myfunc()
+
+print("Python is " + x)
+```
+
+## The *global* Keyword
+
+Normally, when you create a variable inside of a function, that variable is local, and can only be used inside that function. To create a global variable inside of a function, you can use the *global* keyword.
+
+```
+def myfunc():
+    global x
+    x = "fantastic"
+
+myfunc()
+
+print("Python is " + x)
+```
+
+Also, use the *global* keyword if you want to change a global variable inside a function.
+
+```
+x = "awesome"
+
+def myfunc():
+    global x
+    x = "fantastic"
+
+myfunc()
+
+print("Python is " + x)
+```
+
